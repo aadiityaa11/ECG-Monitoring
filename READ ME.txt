@@ -1,0 +1,7 @@
+To use LED Blinker Code :
+
+1. Copy the code from the provided files (app_ble_sensor.c, tasks.c, and main.c).
+2. Navigate to the respective files in your project's source folder (ble_sensor.x).
+3. Paste the copied code into their respective files (app_ble_sensor.c, tasks.c, and main.c).
+4. Save the changes.
+5. Build and run your project to see the LED blinking functionality in action.

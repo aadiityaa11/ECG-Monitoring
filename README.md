@@ -12,6 +12,9 @@ The system captures ECG signals, processes them in real-time on an embedded micr
 
 Developed under the guidance of Dr. J.S. Sahambi as part of an academic research project at IIT Ropar, this device demonstrates end-to-end integration of embedded systems, IoT communication, and mobile software.
 
+
+
+
 Features
 
 Real-time ECG signal acquisition and BLE-based transmission
@@ -28,6 +31,9 @@ Remote monitoring capability for doctors and healthcare providers
 
 
 
+
+
+
 System Architecture
 
 Sensor Node: Acquires ECG signal and transmits data packets via BLE
@@ -40,21 +46,40 @@ Cloud Storage: Maintains patient records for remote access
 
 
 
+
+
+
 Hardware Components
 
 Microchip WBZ451	- Dual-core MCU with integrated BLE radio and FreeRTOS support
+
 ECG Sensor Module	- Detects and amplifies analog ECG signals
+
 Bluetooth Low Energy (BLE) -	Enables real-time, wireless data transmission
+
 Power Supply (3.3V) -	Provides stable voltage to the circuit
+
+
+
+
 
 
 Software Stack
 
 Embedded	- FreeRTOS, C
+
 Communication	- BLE (GATT profile)
+
 Mobile App	- Kotlin, Android Studio
+
 Backend/Cloud	- Firebase Realtime Database
+
 Visualization	- MPAndroidChart for ECG plotting
+
+
+
+
+
 
 Project Workflow
 
